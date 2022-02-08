@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import suraj from './cc.jpg';
+import clg from './Photo.jpg';
 
 function App() {
   return (
@@ -30,7 +32,7 @@ function App() {
 
         <div class="content">
             <div class="model">
-                <img src="Photo.jpg"/>
+                <img src={clg}/>
             </div>
             <div class="main-text">
                  <h1>Suraj Paswan</h1>
@@ -84,11 +86,10 @@ function App() {
         </div>
 
         <div class="skill-img">
-            <img src="cc.jpg"/>
+            <img src={suraj}/>
         </div>
 
     </section>
-
 
  
  <section id="education">
